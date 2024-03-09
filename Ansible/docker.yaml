@@ -22,7 +22,7 @@
         password: Princy89$
 
     - name: Push image
-      command: docker push sevenajay/petstore:latest
+      command: docker push sgkumaran/petstore:latest
 
     - name: Run container
       command: docker run -d --name pet1 -p 8081:8080 sgkumaran/petstore:latest
